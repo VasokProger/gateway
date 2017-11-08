@@ -1,5 +1,5 @@
 {
-    "name": "vasok-proger/gateways",
+    "name": "vasok-proger/gateway",
     "description": "An abstract payment processor for Iranian payment providers",
     "keywords": ["payment", "payment gateway", "shaparak", "zarinpal", "payline"],
     "license": "MIT",
