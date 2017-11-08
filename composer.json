@@ -1,0 +1,29 @@
+{
+    "name": "vasok-proger/payment-gateways",
+    "description": "An abstract payment processor for Iranian payment providers",
+    "keywords": ["payment", "payment gateway", "shaparak", "zarinpal", "payline"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vasok Proger",
+            "email": "vasok.proger@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/http-foundation": "^3.0",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev" : {
+        "mockery/mockery": "~0.9.1",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Payment\\Gateways\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
