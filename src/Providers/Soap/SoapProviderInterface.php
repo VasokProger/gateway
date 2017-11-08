@@ -1,8 +1,8 @@
 <?php
 
-namespace Laratalks\PaymentGateways\Providers\Soap;
+namespace Payment\Gateways\Providers\Soap;
 
-use Laratalks\PaymentGateways\Providers\ProviderInterface;
+use Payment\Gateways\Providers\ProviderInterface;
 
 interface SoapProviderInterface extends ProviderInterface
 {

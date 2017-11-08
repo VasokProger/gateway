@@ -1,11 +1,11 @@
 <?php
 
-namespace Laratalks\PaymentGateways\Providers;
+namespace Payment\Gateways\Providers;
 
-use Laratalks\PaymentGateways\ValueObjects\PaymentNeeds;
-use Laratalks\PaymentGateways\ValueObjects\PaymentRequestNeeds;
-use Laratalks\PaymentGateways\ValueObjects\PaymentRequestResponse;
-use Laratalks\PaymentGateways\ValueObjects\PaymentVerifyResponse;
+use Payment\Gateways\ValueObjects\PaymentNeeds;
+use Payment\Gateways\ValueObjects\PaymentRequestNeeds;
+use Payment\Gateways\ValueObjects\PaymentRequestResponse;
+use Payment\Gateways\ValueObjects\PaymentVerifyResponse;
 use Symfony\Component\HttpFoundation\Request;
 
 interface ProviderInterface

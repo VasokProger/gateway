@@ -1,5 +1,5 @@
 <?php
-namespace Laratalks\PaymentGateways\Exceptions;
+namespace Payment\Gateways\Exceptions;
 
 class PaymentNotVerifiedException extends PaymentGatewayException
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Laratalks\PaymentGateways\Providers\Soap;
+namespace Payment\Gateways\Providers\Soap;
 
-use Laratalks\PaymentGateways\Exceptions\InvalidArgumentException;
-use Laratalks\PaymentGateways\PaymentRequestNeeds;
-use Laratalks\PaymentGateways\PaymentRequestResponse;
-use Laratalks\PaymentGateways\Providers\BaseProvider;
-use Laratalks\PaymentGateways\VerifyResponse;
+use Payment\Gateways\Exceptions\InvalidArgumentException;
+use Payment\Gateways\PaymentRequestNeeds;
+use Payment\Gateways\PaymentRequestResponse;
+use Payment\Gateways\Providers\BaseProvider;
+use Payment\Gateways\VerifyResponse;
 use SoapClient;
 use Symfony\Component\HttpFoundation\Request;
 

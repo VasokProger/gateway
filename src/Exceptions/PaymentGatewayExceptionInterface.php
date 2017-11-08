@@ -1,6 +1,6 @@
 <?php
 
-namespace Laratalks\PaymentGateways\Exceptions;
+namespace Payment\Gateways\Exceptions;
 
 interface PaymentGatewayExceptionInterface
 {

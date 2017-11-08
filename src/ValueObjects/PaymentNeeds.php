@@ -1,8 +1,8 @@
 <?php
-namespace Laratalks\PaymentGateways\ValueObjects;
+namespace Payment\Gateways\ValueObjects;
 
 
-use Laratalks\PaymentGateways\Exceptions\PaymentGatewayException;
+use Payment\Gateways\Exceptions\PaymentGatewayException;
 
 class PaymentNeeds
 {

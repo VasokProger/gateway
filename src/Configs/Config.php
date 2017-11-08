@@ -1,5 +1,5 @@
 <?php
-namespace Laratalks\PaymentGateways\Configs;
+namespace Payment\Gateways\Configs;
 
 class Config  extends BaseConfig
 {

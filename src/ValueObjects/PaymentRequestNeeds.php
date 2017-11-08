@@ -1,9 +1,9 @@
 <?php
 
-namespace Laratalks\PaymentGateways\ValueObjects;
+namespace Payment\Gateways\ValueObjects;
 
-use Laratalks\PaymentGateways\Exceptions\InvalidArgumentException;
-use Laratalks\PaymentGateways\Exceptions\InvalidPaymentNeedsException;
+use Payment\Gateways\Exceptions\InvalidArgumentException;
+use Payment\Gateways\Exceptions\InvalidPaymentNeedsException;
 
 class PaymentRequestNeeds extends PaymentNeeds
 {

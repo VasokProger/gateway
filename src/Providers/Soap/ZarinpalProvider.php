@@ -1,16 +1,16 @@
 <?php
 
-namespace Laratalks\PaymentGateways\Providers\Soap;
+namespace Payment\Gateways\Providers\Soap;
 
-use Laratalks\PaymentGateways\Exceptions\InvalidPaymentNeedsException;
-use Laratalks\PaymentGateways\Exceptions\PaymentGatewayBadRequestException;
-use Laratalks\PaymentGateways\Exceptions\PaymentGatewayException;
-use Laratalks\PaymentGateways\Exceptions\PaymentGatewayResponseException;
-use Laratalks\PaymentGateways\Exceptions\PaymentNotVerifiedException;
-use Laratalks\PaymentGateways\ValueObjects\PaymentNeeds;
-use Laratalks\PaymentGateways\ValueObjects\PaymentRequestNeeds;
-use Laratalks\PaymentGateways\ValueObjects\PaymentRequestResponse;
-use Laratalks\PaymentGateways\ValueObjects\PaymentVerifyResponse;
+use Payment\Gateways\Exceptions\InvalidPaymentNeedsException;
+use Payment\Gateways\Exceptions\PaymentGatewayBadRequestException;
+use Payment\Gateways\Exceptions\PaymentGatewayException;
+use Payment\Gateways\Exceptions\PaymentGatewayResponseException;
+use Payment\Gateways\Exceptions\PaymentNotVerifiedException;
+use Payment\Gateways\ValueObjects\PaymentNeeds;
+use Payment\Gateways\ValueObjects\PaymentRequestNeeds;
+use Payment\Gateways\ValueObjects\PaymentRequestResponse;
+use Payment\Gateways\ValueObjects\PaymentVerifyResponse;
 use Symfony\Component\HttpFoundation\Request;
 
 class ZarinpalProvider extends BaseSoapProvider implements SoapProviderInterface

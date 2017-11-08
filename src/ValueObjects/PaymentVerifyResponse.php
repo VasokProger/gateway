@@ -1,5 +1,5 @@
 <?php
-namespace Laratalks\PaymentGateways\ValueObjects;
+namespace Payment\Gateways\ValueObjects;
 
 class PaymentVerifyResponse extends PaymentResponse
 {

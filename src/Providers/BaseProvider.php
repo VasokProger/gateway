@@ -1,9 +1,9 @@
 <?php
 
-namespace Laratalks\PaymentGateways\Providers;
+namespace Payment\Gateways\Providers;
 
 
-use Laratalks\PaymentGateways\Exceptions\PaymentGatewayException;
+use Payment\Gateways\Exceptions\PaymentGatewayException;
 
 abstract class BaseProvider implements ProviderInterface
 {

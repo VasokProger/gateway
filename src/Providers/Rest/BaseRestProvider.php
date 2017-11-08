@@ -1,9 +1,9 @@
 <?php
 
-namespace Laratalks\PaymentGateways\Providers\Rest;
+namespace Payment\Gateways\Providers\Rest;
 
 use GuzzleHttp\Client;
-use Laratalks\PaymentGateways\Providers\BaseProvider;
+use Payment\Gateways\Providers\BaseProvider;
 
 abstract class BaseRestProvider extends BaseProvider
 {

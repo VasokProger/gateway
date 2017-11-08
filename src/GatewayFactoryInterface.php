@@ -1,8 +1,8 @@
 <?php
 
-namespace Laratalks\PaymentGateways;
+namespace Payment\Gateways;
 
-use Laratalks\PaymentGateways\Providers\ProviderInterface;
+use Payment\Gateways\Providers\ProviderInterface;
 
 interface GatewayFactoryInterface
 {

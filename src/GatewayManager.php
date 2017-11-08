@@ -1,13 +1,13 @@
 <?php
 
-namespace Laratalks\PaymentGateways;
+namespace Payment\Gateways;
 
-use Laratalks\PaymentGateways\Configs\Config;
-use Laratalks\PaymentGateways\Exceptions\InvalidProviderException;
-use Laratalks\PaymentGateways\Exceptions\PaymentGatewayException;
-use Laratalks\PaymentGateways\Providers\ProviderInterface;
-use Laratalks\PaymentGateways\Providers\Rest\UpalProvider;
-use Laratalks\PaymentGateways\Providers\Soap\ZarinpalProvider;
+use Payment\Gateways\Configs\Config;
+use Payment\Gateways\Exceptions\InvalidProviderException;
+use Payment\Gateways\Exceptions\PaymentGatewayException;
+use Payment\Gateways\Providers\ProviderInterface;
+use Payment\Gateways\Providers\Rest\UpalProvider;
+use Payment\Gateways\Providers\Soap\ZarinpalProvider;
 
 class GatewayManager implements GatewayFactoryInterface
 {
